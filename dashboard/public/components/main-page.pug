@@ -72,8 +72,6 @@ app-drawer-layout.flex(narrow='{{narrowMode}}',
                 template(is='dom-if', if='![[persistent]]')
                     aside#Narrow-Slider(hides, hidden$='[[!narrowMode]]')
                         paper-icon-button#Menu(icon='menu', drawer-toggle)
-                        figure.Logo
-                            |!{logo}
                 namespace-selector#NamespaceSelector(
                     query-params='{{queryParams}}', route='{{route}}',
                     namespaces='[[namespaces]]', selected='{{namespace}}',
