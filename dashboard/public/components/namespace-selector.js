@@ -210,8 +210,7 @@ export class NamespaceSelector extends PolymerElement {
             }
         }
 
-        return this.namespaces.find(
-            (n) => n.role == 'owner');
+        return this.namespaces[0];
     }
 
     /**
